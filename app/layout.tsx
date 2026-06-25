@@ -7,7 +7,9 @@ import "./globals.css";
 import {Metadata} from "next";
 export const metadata: Metadata = {
     title: "Staley Robotics",
-    icons: "/favicon.ico",
+    icons: {
+        icon: "/favicon.ico",
+    },
     description: "The official website of Staley Robotics, FRC Team #4959",
 };
 
