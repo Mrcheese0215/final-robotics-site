@@ -36,18 +36,10 @@ const Sponsors = () => {
                             <a href="https://www.cat.com/en_US.html" className="text-green-400 block mt-2">Cat.com Website</a>
                         </div>
                         <div className={"min-h-60 flex flex-col justify-center items-center"}>
-                            <Image src="/Wiz-Logo.svg" alt="Wiz.io Logo" className="mt-4 max-w-full" width={400} height={400} />
-                            <a href="https://www.wiz.io/" className="text-green-400 block mt-2">Wiz.io Website</a>
-                        </div>
-                        <div className={"min-h-60 flex flex-col justify-center items-center"}>
                             <Image src="/NKCSCHOOLS.svg" alt="NKC Schools Logo" className="mt-4 max-w-full" width={400} height={400} />
                             <a href="https://www.nkcschools.org/" className="text-green-400 block mt-2">North Kansas City School District Website</a>
                         </div>
-                        <div className={"min-h-60 flex flex-col justify-center items-center"}>
-                            <Image src="/ArgosyFoundation.svg" alt="Argosy Foundation Logo" className="mt-4 max-w-full" width={400} height={400} />
-                            <a href="https://www.argosyfoundation.org/" className="text-green-400 block mt-2">Argosy Foundation Website</a>
-                        </div>
-                        <div className={"min-h-60 flex flex-col justify-center items-center"}>
+                        <div className={"min-h-60 flex flex-col justify-center items-center col-start-2 row-start-2"}>
                             <Image src="/GeneHaasFoundation.svg" alt="Gene Haas Foundation Logo" className="mt-4 max-w-full" width={400} height={400} />
                             <a href="https://www.ghaasfoundation.org/" className="text-green-400 block mt-2">Gene Haas Foundation Website</a>
                         </div>
@@ -77,7 +69,7 @@ const Sponsors = () => {
                 <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg">
                     <h2 className="text-2xl font-bold font-jockey-one">Silver</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                        <div className={"min-h-60 flex flex-col justify-center items-center"}>
+                        <div className={"min-h-60 flex flex-col col-start-2 justify-center items-center"}>
                             <Image src="/KCStem.svg" alt="KC Stem Alliance Logo" className="mt-4 max-w-full" width={400} height={400} />
                             <a href="https://www.kcstem.org/" className="text-green-400 block mt-2">KC Stem Alliance Website</a>
                         </div>
@@ -95,13 +87,26 @@ const Sponsors = () => {
 
             {/* Special Thanks Section */}
             <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg mt-8 w-full max-w-4xl">
-                <p className="font-bold">A very special thanks goes to the <strong>Koontz</strong> family for their hard work and support!</p>
+                <p className="font-bold">A very special thanks goes to the <strong>Koontz</strong> and <strong>Taylor</strong> family for their hard work and support!</p>
                 <hr className="my-4" />
                 <hr className="my-4" />
                 <p>
                     The Koontz family has been a huge help to the team. They have helped us with our robot design and development, and have been our representatives to our school district for funding and support.
                 </p>
+                <p className='pt-4'>
+                    The Taylor family has play a crucial role in securing the Labconco sponsorship for the last two years.  This year, the family also step up their level off support with a financial donation to the Silver level sponsorship.
+                </p>
             </div>
+            {/* Undecided Sponsors (may have again in the future?) */}
+            {/*<div className={"min-h-60 flex flex-col justify-center items-center"}>
+                            <Image src="/Wiz-Logo.svg" alt="Wiz.io Logo" className="mt-4 max-w-full" width={400} height={400} />
+                            <a href="https://www.wiz.io/" className="text-green-400 block mt-2">Wiz.io Website</a>
+                        </div>*/}
+            {/*<div className={"min-h-60 flex flex-col justify-center items-center"}>
+                            <Image src="/ArgosyFoundation.svg" alt="Argosy Foundation Logo" className="mt-4 max-w-full" width={400} height={400} />
+                            <a href="https://www.argosyfoundation.org/" className="text-green-400 block mt-2">Argosy Foundation Website</a>
+                        </div>*/}
+            
         </div>
     );
 };
